@@ -19,15 +19,20 @@
 ##    print("FALSE BLOCK")
 
 
-strChoice = input("Enter your choice: ")
-if strChoice == "1":
-    print("Enjoy 1")
-elif strChoice == "2":
-    print("Enjoy 2")
-elif strChoice == "3":
-    print("Enjoy 3")
-elif strChoice == "4":
-    print("Enjoy 4")
-else:
-    print("STARVE!")
+##strChoice = input("Enter your choice: ")
+##if strChoice == "1":
+##    print("Enjoy 1")
+##elif strChoice == "2":
+##    print("Enjoy 2")
+##elif strChoice == "3":
+##    print("Enjoy 3")
+##elif strChoice == "4":
+##    print("Enjoy 4")
+##else:
+##    print("STARVE!")
 
+blnDone = False
+while blnDone == False:
+    strName=input("Enter name or quite: ")
+    if strName == "nick":
+        blnDone = True

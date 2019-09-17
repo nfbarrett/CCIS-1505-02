@@ -53,5 +53,17 @@ else:
 
 
 # step 6
-print("\nstep 6 IF")
+print("\nstep 6 LOGIN")
+
+blnDone = False
+while blnDone == False:
+    str_name = input("Username: ")
+    str_pass = input("Password: ")
+    if str_name == "john doe" and str_pass == "fopwpo":
+        print("Login successful\n")
+        blnDone = True
+    else:
+        print("Login unsuccessful\n")
+
+
 
