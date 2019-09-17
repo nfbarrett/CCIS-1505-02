@@ -26,6 +26,32 @@ while int_Counter >= 0:
     int_Counter -= 100
 
 # step 5
+print("\nstep 5 IF")
+int_number = int(input("Pick a number between 1 - 10: "))
+if int_number == 1:
+    print("One")
+elif int_number == 2:
+    print("Two")
+elif int_number == 3:
+    print("Three")
+elif int_number == 4:
+    print("Four")
+elif int_number == 5:
+    print("Five")
+elif int_number == 6:
+    print("Six")
+elif int_number == 7:
+    print("Seven")
+elif int_number == 8:
+    print("Eight")
+elif int_number == 9:
+    print("Nine")
+elif int_number == 10:
+    print("Ten")
+else:
+    print("Sorry, you choose a number outside of 1 - 10.")
 
 
 # step 6
+print("\nstep 6 IF")
+
