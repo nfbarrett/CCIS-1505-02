@@ -22,15 +22,15 @@ print()
 
 #step 3
 print("Step 3")
-for x in tupMonthNames:
-  print(x,"=",x[0:3]) 
+for tupMon in tupMonthNames:
+  print(tupMon,"=",tupMon[0:3]) 
 print()
 
 #step 4
 print("Step 4")
-for j in tupMonthNames:
-    if "J" in j:
-        print(j)
+for tupMon in tupMonthNames:
+    if "J" in tupMon[0]:
+        print(tupMon)
 
 print()
 
@@ -47,7 +47,7 @@ print()
 print("Step 6")
 strFirstName=input("Enter your first name: ")
 for intLC in range(1,11,1):
-    print(strFirstName, intLC)
+    print(strFirstName, "loop counter =", intLC)
 
 print()
 #step 7
