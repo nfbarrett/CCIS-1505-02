@@ -33,4 +33,12 @@ for student in tupStudents:
     print(student.title())
 print()
 tupLen = len(tupStudents)
-print("there are",tupLen, "students in the class")
+print("There are",tupLen, "students in the class")
+print()
+print()
+
+strName = input("Enter student to search for: ")
+if strName.lower() in tupStudents:
+    print(strName, "is in the class.")
+else:
+    print(strName, "is not in the class.")
