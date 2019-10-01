@@ -11,6 +11,7 @@ int_Counter=0
 while int_Counter <= 6:
     strWeekDay = input("Enter day of the week: ")
     int_Counter += 1 # count up by 1
+    strWeekDay = strWeekDay.title()
     lstWeekDays.append(strWeekDay)
 print()
 print()
@@ -28,6 +29,7 @@ print()
 
 #step 3
 print("Step 3")
+
 ##lstWeekDays = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 
 lstWeekDays.reverse()
@@ -40,6 +42,7 @@ print()
 
 #step 4
 print("Step 4")
+
 ##lstWeekDays = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 lstWeekDays.sort()
 
@@ -52,19 +55,17 @@ print()
 #step 5
 print("Step 5")
 
-for lstDay in lstWeekDays:
-  print(lstDay,"=",lstDay[0:3])
-
-
-
+for strDay in lstWeekDays:
+  print(strDay,"=",strDay[0:3])
 print()
 print()
+
 #step 6
 print("Step 6")
 
-for lstDay in lstWeekDays:
-    if "T" in lstDay[0]:
-        print(lstDay)
+for strDay in lstWeekDays:
+    if "T" in strDay[0]:
+        print(strDay)
 
 
 print()
@@ -74,9 +75,6 @@ print()
 #step 7
 print("Step 7")
 
-
-
-
 dctCourses = {
     1000:"Intro to IS",
     1301:"HTML & CSS",
@@ -85,7 +83,6 @@ dctCourses = {
     2585:".NET Programming 2",
     2701:"Database Design & SQL"}
 print(dctCourses)
-
 print()
 print()
 
@@ -94,6 +91,9 @@ print()
 print("Step 8")
 
 lstKeys=dctCourses.keys()
+for strKey in lstKeys:
+        print(strKey)
+
 print(lstKeys)
 print()
 print()
@@ -103,12 +103,15 @@ print()
 print("Step 9")
 
 lstValues=dctCourses.values()
-print(lstValues)
+
+for strValue in lstValues:
+        print(strValue)
 print()
 print()
 
 
 #step 10
 print("Step 10")
+
 strName = dctCourses[1505]
 print(strName)
