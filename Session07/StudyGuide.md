@@ -113,18 +113,18 @@
 
 Number | Question | Answer
 --|---|--
-1. | A function available to determine how many items are in a sequence |
+1. | A function available to determine how many items are in a sequence | len
 2. | A part of a sequence |
 3. | Used to repeat a set of instructions | loop
 4. | A sequence of characters | string
-5. | A sequence of strings or other data |
+5. | A sequence of strings or other data | tuple
 6. | Used to place comments in your program | #
-7. | A number without decimal places |
+7. | A number without decimal places | integer
 8. | Used to ask for user input | input
 9. | Used to create a new line | \n
 10. | Data type that can only contain True or False | boolean
 
-  - integer
+  - ~integer~
   - ~string~
   - len
   - tuple
