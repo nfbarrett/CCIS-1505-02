@@ -12,5 +12,22 @@ def Input():
     return strFullName
 #### end of function
 
-strName= Input()
+def Process(name):
+    """This function received a name and returns it in title format"""
+    strFullNameT = name.title()
+    return strFullNameT
+
+def Output(name):
+    """This function recives a name and prints a greating message"""
+    print("Hello,", name, "have a nice day!")
+    
+
+
+######Mainline Code
+strName= Input() #calls function and stores returned name in strName
 print(strName)
+
+strNameT = Process(strName)
+print(strNameT)
+
+Output(strNameT)
