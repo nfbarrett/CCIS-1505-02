@@ -10,7 +10,6 @@ def Input():
     strLN = input("Enter your last name: ")
     strFullName = strFN + " " + strMN + " " + strLN
     return strFullName
-#### end of function
 
 def Process(name):
     """This function received a name and returns it in title format"""
@@ -21,7 +20,7 @@ def Output(name):
     """This function recives a name and prints a greating message"""
     print("Hello,", name, "have a nice day!")
     
-
+#### end of functions
 
 ######Mainline Code
 strName= Input() #calls function and stores returned name in strName
