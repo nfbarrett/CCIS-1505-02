@@ -17,19 +17,7 @@ def GetNames():
     return lstNames
 
 
-def GetNumber():
-    """This function collects scores from keyboard and returns a list of names"""
-    lstNumber = []
-    blnDone = False
-    while blnDone == False:
-        strNumber = input("Enter a number or press ENTER when done: ")
-        if len(strNumber) > 0:  #Did user enter a name
-            lstNumber.append(int(strNumber))
-        else:  #user pressed ENTER
-            blnDone=True
-    return lstNumber
-
-
+print("Part 1")
 GetNames()
 
 
