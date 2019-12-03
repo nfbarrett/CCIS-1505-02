@@ -43,7 +43,7 @@ myEmployee.Emppay()
 print()
 print()
 print("Step 5")
-strNamecheck = input("Change employee namae to? ")
+strNamecheck = input("Change employee name to? ")
 myEmployee.Empname=strNamecheck
 
 ##strNamechange = input("Change "+strNamecheck+" to what new name? ")
