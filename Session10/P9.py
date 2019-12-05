@@ -1,10 +1,10 @@
 # Programer: Nick Barrett
-# Date Written: Oct 29, 2019
+# Date Written: Nov 12, 2019
 # Program Name: P9.py
 # Company Name: HTC-CCIS1505
 
 class Employee:
-    def __init__(self,strName,intHours,hourly_wage): #constructor
+    def __init__(self,strName="",intHours=0,hourly_wage=0.0): #constructor
         self.Employee_Name = strName #creat public Employee Name
         self.Hours_Worked = intHours #creat public Hours Worked
         self.__Hourly_Wage = hourly_wage #creat public Hourly Wage
