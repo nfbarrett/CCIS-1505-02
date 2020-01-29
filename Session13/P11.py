@@ -4,11 +4,10 @@
 # Company Name: HTC-CCIS1505
 
 
-
 from tkinter import *
 ############### Form colors & fonts ################
 fg="blue"
-bg="sky blue"
+bg="azure1"
 f1="Helvetica 16 bold"
 f2="Helvetica 12 bold"
 f3="Helvetica 12"
@@ -17,16 +16,16 @@ f3="Helvetica 12"
 
 ### show="*" john doe fopwpo
 def Login():
-    blnDone = False
-    while blnDone == False:
+    #blnDone = False
+    #while blnDone == False:
         str_name = entCustName.get() #retrieves contents of Entry control
         str_pass = entCustPass.get()
         if str_name == "john doe" and str_pass == "fopwpo":
             lblCopy["text"] = "Login successful"
-            blnDone = True
+##            blnDone = True
         else:
             lblCopy["text"] = "LoginID or Password Invalid"
-            blnDone = True
+            #blnDone = True
     
 def Clear():
     entCustName.delete(0,END)
